@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     // Using the Jenkins workspace variable to reference files
-                    bat 'xcopy /y "D:\\New folder (2)\\index.html" "%NGINX_PATH%"'
+                    bat 'xcopy /y "D:\\git\\index.html" "%NGINX_PATH%"'
                 }
             }
         }
