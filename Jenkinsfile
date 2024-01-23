@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Use the checkout step to clone the Git repository
-                    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'a0e141be-c90e-4631-8bf8-9a172714ac45', url: 'https://github.com/Rishi100304/pipe1.git']]])
+                    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'a0e141be-c90e-4631-8bf8-9a172714ac45', url: 'https://github.com/Rishi100304/d1.git']]])
                 }
             }
         }
